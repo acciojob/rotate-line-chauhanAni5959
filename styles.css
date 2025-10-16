@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#line {
+  width: 200px;
+  height: 2px;
+  background: #000;
+  position: relative;
+  
+  transform: rotate(0deg);
+  transform-origin: center center;
+}
